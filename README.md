@@ -1,10 +1,10 @@
-#Catch the Button Game
+Catch the Button Game
 
 This is a fun, interactive game made with Python's Tkinter library. In this game, the user is prompted with a simple math question, and they must choose between "Yes" or "No." The twist is that the "No" button moves randomly around the screen when the user tries to hover over it, making it harder to catch.
 
 If the user clicks "Yes," they are shown a playful message, and the game ends. If the user fails to click the right button in time, they must face a dare.
 
-#Features:
+Features:
 
 --> A simple GUI interface made with Tkinter.
 --> A math question is presented, and the user has to decide between "Yes" or "No."
@@ -12,7 +12,7 @@ If the user clicks "Yes," they are shown a playful message, and the game ends. I
 --> A playful message is displayed if the user clicks "Yes."
 --> The game ends if the user clicks "Yes" or if they fail to interact within the given time.
 
-#Requirements:
+Requirements:
 To run this game, you will need:
 
 --> Python 3.x
