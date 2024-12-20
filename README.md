@@ -6,17 +6,17 @@ If the user clicks "Yes," they are shown a playful message, and the game ends. I
 
 # Features:
 
---> A simple GUI interface made with Tkinter.
---> A math question is presented, and the user has to decide between "Yes" or "No."
---> The "No" button moves randomly when the user tries to hover over it, adding difficulty.
---> A playful message is displayed if the user clicks "Yes."
---> The game ends if the user clicks "Yes" or if they fail to interact within the given time.
+A simple GUI interface made with Tkinter.
+A math question is presented, and the user has to decide between "Yes" or "No."
+The "No" button moves randomly when the user tries to hover over it, adding difficulty.
+A playful message is displayed if the user clicks "Yes."
+The game ends if the user clicks "Yes" or if they fail to interact within the given time.
 
 # Requirements:
 To run this game, you will need:
 
---> Python 3.x
---> Tkinter library (usually comes pre-installed with Python)
+Python 3.x
+Tkinter library (usually comes pre-installed with Python)
 
 # How It Works
 The game starts by asking a question (You can write any question you want by rewrite the question) with the options "Yes" and "No."
