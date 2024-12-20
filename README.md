@@ -20,12 +20,15 @@ The game ends if the user clicks "Yes" or if they fail to interact within the gi
 To run this game, you will need:
 
 Python 3.x
+
 Tkinter library (usually comes pre-installed with Python)
 
 # How It Works
+
 The game starts by asking a question (You can write any question you want by rewrite the question) with the options "Yes" and "No."
 If you hover your mouse over the "No" button, it will move to a random position on the screen, making it difficult to click.
 Clicking the "Yes" button will display a message (You can write any message you want to displayed by rewrite the message) .
 License
+
 This project is open source and available under the MIT License.
 
