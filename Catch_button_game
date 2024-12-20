@@ -1,0 +1,38 @@
+import tkinter as tk
+import random
+
+def move_no_button(event):
+    """Move the 'No' button to a random position on the screen."""
+    new_x = random.randint(0, window.winfo_width() - no_button.winfo_width())
+    new_y = random.randint(0, window.winfo_height() - no_button.winfo_height())
+    no_button.place(x=new_x, y=new_y)
+
+def yes_clicked():
+    """Display a message and end the program when 'Yes' is clicked."""
+    for widget in window.winfo_children():  # Remove all widgets from the window
+        widget.destroy()
+    message_label = tk.Label(window, text="Yes! \n Means You are very weak in math. \n shame'! ༼ ༼ ◆_◆ ༽༽", font=("Arial", 14))
+    message_label.pack(pady=20)
+
+# Create the main application window
+window = tk.Tk()
+window.title("Catch the Button")
+window.geometry("400x300")
+
+# Add a label to prompt the user
+prompt_label = tk.Label(window, text="Note- 'You must choose between Yes or No. \n If you leave the box! You have to play a dare!' \n Is 2 + 2 equal to 5?", font=("Arial", 14))
+prompt_label.pack(pady=20)
+
+# Add the 'Yes' button
+yes_button = tk.Button(window, text="Yes", font=("Arial", 12), command=yes_clicked)
+yes_button.pack(pady=10)
+
+# Add the 'No' button
+no_button = tk.Button(window, text="No", font=("Arial", 12))
+no_button.place(x=150, y=150)
+
+# Bind the 'No' button to move when the mouse hovers over it
+no_button.bind("<Enter>", move_no_button)
+
+# Run the application
+window.mainloop()
